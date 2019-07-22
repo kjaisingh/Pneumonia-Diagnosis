@@ -89,7 +89,7 @@ model.summary()
 early = EarlyStopping(monitor = 'val_acc', min_delta = 0, 
                       patience = 10, verbose= 1 , mode = 'auto')
 
-model.compile(loss = "binary_crossentropy", 
+model.compile(loss = "categorical_crossentropy", 
                     optimizer = SGD(lr=0.001, momentum=0.9), 
                     metrics=["accuracy"])
 
