@@ -3,9 +3,15 @@ A Convolutional Neural Network that is able to detect whether a patient has pneu
 
 
 To run this project, follow the steps below:
-1. Download and unzip the raw data from: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
-2. Rename the folder containing the data to 'data'.
-3. Train the Convolutional Neural Network:
+1. Install the Kaggle API, which will assist in the downloading of data:
+```
+pip install kaggle
+```
+2. Retrieve the data through the following command:
+```
+python retrieve.py
+```
+3. Train the Convolutional Neural Network through the following command:
 ```
 python train.py
 ```
@@ -20,4 +26,4 @@ By completing the following steps, the following files are created:
 * plot.jpg - This displays statistics regarding the training process of the model.
 
 
-The final accuracy obtained by the model, after testing on 624 unseen instances, exceeds 90%. 
+The final accuracy obtained by the model, after testing on 624 unseen instances, is approximately 92%. 
