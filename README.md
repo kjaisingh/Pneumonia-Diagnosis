@@ -1,8 +1,9 @@
 # Pneumonia Diagnosis
-A Convolutional Neural Network that is able to detect whether a patient has pneumonia, both bacterial and viral, or not, based on an X-ray image of their chest. Implements transfer learning, using the first 16 layers of a pre-trained VGG19 Network, to identify the image classes.
+### Tackling healthcare data problems with Machine Learning.
+A Convolutional Neural Network that is able to detect whether a patient has pneumonia, both bacterial and viral, or not, based on an X-ray image of their chest. Implements transfer learning, using the first 16 layers of a pre-trained VGG19 Network, to identify the image classes. The final accuracy obtained by the model, after testing on 624 unseen instances, is approximately 92%. 
 
 
-To run this project, follow the steps below:
+**Execution Instructions**
 1. Install the Kaggle API, which will assist in the downloading of data:
 ```
 pip install kaggle
@@ -21,9 +22,6 @@ python predict.py -i <path-to-image>
 ```
 
 
-By completing the following steps, the following files are created:
+**Generated Files**
 * model.h5 - This stores a '.h5' version of the Convolutional Neural Network model trained.
 * plot.jpg - This displays statistics regarding the training process of the model.
-
-
-The final accuracy obtained by the model, after testing on 624 unseen instances, is approximately 92%. 
