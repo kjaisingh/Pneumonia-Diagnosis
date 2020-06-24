@@ -1,5 +1,5 @@
 # Pneumonia Diagnosis
-### Tackling healthcare data problems with Machine Learning.
+### Tackling a healthcare issue with Machine Learning.
 A Convolutional Neural Network that is able to detect whether a patient has pneumonia, both bacterial and viral, or not, based on an X-ray image of their chest. Implements transfer learning, using the first 16 layers of a pre-trained VGG19 Network, to identify the image classes. The final accuracy obtained by the model, after testing on 624 unseen instances, is approximately 92%. 
 
 
